@@ -1,0 +1,86 @@
+/* CONTAINER */
+.dashboard-container {
+  padding: 15px;
+}
+
+/* TITLE */
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TABLE WRAPPER (MOST IMPORTANT FIX) */
+.table-responsive-custom {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 20px;
+}
+
+/* TABLE */
+.table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+/* HEADER */
+.table thead {
+  text-align: center;
+}
+
+/* CELLS */
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+/* HOVER */
+.table-hover tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* BUTTON */
+.btn-danger {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  margin-bottom: 15px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .table {
+    min-width: 800px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+  .table {
+    min-width: 700px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}

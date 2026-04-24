@@ -1,0 +1,54 @@
+/* CONTAINER */
+.our-vision-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff, #f1f8ff);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.our-vision-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #28a745; /* green tone (different from mission) */
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.our-vision-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .our-vision-container {
+    margin: 30px 15px;
+    padding: 20px 15px;
+  }
+
+  .our-vision-heading {
+    font-size: 24px;
+  }
+
+  .our-vision-text {
+    font-size: 15px;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .our-vision-heading {
+    font-size: 28px;
+  }
+
+  .our-vision-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,120 @@
+/* BUTTON */
+.summer-btn {
+  position: fixed;
+  top: 200px;
+  right: 15px;
+  background: #e70598;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1003;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.summer-btn:hover {
+  transform: scale(1.05);
+}
+
+/* OVERLAY */
+.summer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+}
+
+/* SIDEBAR */
+.summer-sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  width: 320px;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  transition: right 0.4s ease;
+  z-index: 1002;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: -4px 0 20px rgba(0,0,0,0.2);
+
+  overflow-y: auto; /* important */
+}
+
+/* OPEN */
+.summer-sidebar.open {
+  right: 0;
+}
+
+/* CLOSE BUTTON */
+.summer-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1004;
+}
+
+/* CARD */
+.summer-card {
+  background: #fff3e6;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 40px;
+  line-height: 1.6;
+}
+
+/* TEXT */
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .summer-sidebar {
+    width: 85%;
+    right: -100%;
+  }
+
+  .summer-sidebar.open {
+    right: 0;
+  }
+
+  .summer-btn {
+    top: 150px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .summer-card {
+    font-size: 14px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+  .summer-sidebar {
+    width: 100%; /* full screen */
+    border-radius: 0;
+  }
+
+  .summer-btn {
+    top: 250px;
+    right: 10px;
+    font-size: 13px;
+  }
+}

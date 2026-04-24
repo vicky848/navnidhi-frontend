@@ -1,0 +1,32 @@
+/* CARD BASE */
+.card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+  transform: translateY(-8px);
+  background-color: #6e8a58;
+}
+
+/* TEXT FIX ON HOVER */
+.card:hover .card-title,
+.card:hover .card-text {
+  color: #fff;
+}
+
+/* TITLE */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  transition: color 0.3s;
+}
+
+/* TEXT */
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+  transition: color 0.3s;
+}

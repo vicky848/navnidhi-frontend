@@ -1,0 +1,52 @@
+/* SECTION */
+.about-preview-section {
+  background: #f8f9fa;
+}
+
+/* IMAGE */
+.about-img {
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.about-preview-section p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* BUTTON */
+.about-preview-section .btn {
+  padding: 10px 18px;
+  font-weight: 500;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .about-img {
+    max-height: 250px;
+  }
+
+  .about-preview-section h2 {
+    font-size: 22px;
+  }
+
+  .about-preview-section p {
+    font-size: 14px;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .about-img {
+    max-height: 300px;
+  }
+
+  .about-preview-section h2 {
+    font-size: 26px;
+  }
+}

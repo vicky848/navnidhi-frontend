@@ -1,0 +1,46 @@
+/* Paragraph */
+p {
+  margin-bottom: 8px;
+  line-height: 1.6; /* readability improve */
+  word-wrap: break-word; /* long text mobile me break hoga */
+}
+
+/* Iframe */
+iframe {
+  border-radius: 8px;
+  width: 100%;          /* responsive */
+  max-width: 100%;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 480px) {
+
+  p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  iframe {
+    height: 200px; /* mobile friendly height */
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  p {
+    font-size: 15px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+/* ================= DESKTOP ================= */
+@media (min-width: 769px) {
+
+  iframe {
+    height: 300px;
+  }
+}

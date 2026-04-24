@@ -1,0 +1,54 @@
+/* CONTAINER */
+.our-mission-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.our-mission-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.our-mission-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .our-mission-container {
+    margin: 30px 15px;
+    padding: 20px 15px;
+  }
+
+  .our-mission-heading {
+    font-size: 24px;
+  }
+
+  .our-mission-text {
+    font-size: 15px;
+  }
+}
+
+/* ================= TABLET ================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .our-mission-heading {
+    font-size: 28px;
+  }
+
+  .our-mission-text {
+    font-size: 16px;
+  }
+}

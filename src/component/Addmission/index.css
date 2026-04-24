@@ -1,0 +1,87 @@
+/* FORM CARD */
+form.card {
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+form.card:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* LABEL */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* INPUTS */
+.form-control,
+.form-select,
+textarea {
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+/* FOCUS EFFECT */
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 8px rgba(40,167,69,0.3);
+}
+
+/* BUTTON */
+.btn-success {
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.btn-success:hover {
+  background-color: #1e7e34;
+  transform: scale(1.02);
+}
+
+/* ALERT */
+.alert {
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .container h2 {
+    font-size: 22px;
+  }
+
+  form.card {
+    padding: 20px !important;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 14px;
+  }
+
+  .btn-success {
+    font-size: 14px;
+  }
+}
+
+/* ================= SMALL MOBILE ================= */
+@media (max-width: 480px) {
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  form.card {
+    padding: 15px !important;
+  }
+}
