@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-danger shadow-sm">
       <div className="container-fluid"> 
       
-        <img src="/image/school-logo.png" alt="Navnidhi Logo" className="logo me-2" />
+        <img src="/image/nav-logo.png" alt="Navnidhi Logo" className="logo me-2" />
 
       
         
